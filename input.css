@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background:  hsl(300, 24%, 96%);
+    background-image: url("../images/bg-pattern-top-desktop.svg");
+    background-repeat: none;
+}
+.heading {
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    font-size: xx-large;
+    width:240px;
+}
+h6 {
+    color:  hsl(300, 43%, 22%);
+}
